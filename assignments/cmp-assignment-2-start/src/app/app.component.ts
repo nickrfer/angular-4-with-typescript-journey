@@ -6,10 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  rootItems = ['Apples', 'Bananas', 'Cherries']
-
-  onItemWasAdded(newItem) {
-    this.rootItems.push(newItem);
-    console.log(this.rootItems);
-  }
+  title = 'app';
 }
